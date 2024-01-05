@@ -1,0 +1,17 @@
+/* GLOBAL */
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+/* CONTAINER */
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 1160px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
