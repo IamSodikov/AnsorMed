@@ -13,6 +13,10 @@ body{
   background-color: #fff;
   color: #444;
 }
+*:focus{
+  outline:2px dotted #DE2E54;
+  outline-offset: 2px;
+}
 /* CONTAINER */
 .container{
   padding-left: 30px;
@@ -80,5 +84,25 @@ body{
 }
 /* MAIN LINK */
 .main-link{
-
+  display: inline-block;
+  padding: 10px 22px;
+  border: 2px solid #DE2E54;
+  border-radius: 8px;
+  background-color: #DE2E54;
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+}
+.main-link:hover{
+  background-color: #fff;
+  color: #DE2E54;
+}
+.main-link:active{
+  opacity: 0.6;
+  background-color: #DE2E54;
+  color: #fff;
 }
