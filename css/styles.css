@@ -17,6 +17,9 @@ body{
   outline:2px dotted #DE2E54;
   outline-offset: 2px;
 }
+html{
+  scroll-behavior: smooth;
+}
 /* CONTAINER */
 .container{
   padding-left: 30px;
@@ -217,6 +220,40 @@ body{
 .service-actions{
   display: flex;
   justify-content: center;
+}
+/* CTA */
+.cta{
+  background-color: #0EB4C1;
+  color: #fff;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.cta-heading{
+  text-align: center;
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.cta-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cta-item-links:not(:last-child){
+  margin-right: 40px;
+}
+.main-link-cta{
+  display: inline-block;
+  border-color: #fff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: transparent;
+}
+.main-link-cta:hover{
+  background-color: #DE2E54;
+  color: #fff;
 }
 /* SITE-FOOTER */
 .site-footer{
