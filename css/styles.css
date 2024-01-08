@@ -115,6 +115,48 @@ body{
   background-color: #DE2E54;
   color: #fff;
 }
+/* HERO */
+.hero{
+  background-color: #0EB4C1;
+  color: #fff;
+}
+.hero-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-content{
+  width: 500px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.hero-heading{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom:  16px;
+}
+.hero-text{
+  width: 440px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
+  margin-bottom: 36px;
+}
+.main-link-hero:hover{
+  border-color: transparent;
+  background-color:rgba(222, 46, 84, 0.8);
+  color: #fff;
+}
+.main-link-hero:active{
+  background-color: rgba(222, 46, 84, 0.6);
+  opacity: 1;
+}
+.hero-img{
+  align-self: flex-end;
+}
 /* SITE-FOOTER */
 .site-footer{
   padding-top: 24px;
